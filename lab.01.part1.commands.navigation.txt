@@ -15,6 +15,41 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
 
 
 
@@ -28,6 +63,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+drwxr-xr-x 1 Keyon Gray 197121       0 Jan  6 10:47 '3D Objects'/
+drwxr-xr-x 1 Keyon Gray 197121       0 Jan  6 10:36  AppData/
 
 
 
@@ -41,6 +78,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
+./   'CST 1101'/       'My Music'@     'My Videos'@
+ ../  'McAfee Vaults'/  'My Pictures'@   desktop.ini
 
 
 
@@ -54,6 +93,7 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 
@@ -63,7 +103,7 @@ Copy and paste the output below.
 ==========
 5.  What key do I press to go to the previous command?
 ----------
-
+The UP arrow on the keyboard
 
 
 
@@ -72,8 +112,8 @@ Copy and paste the output below.
 ==========
 6.  Name two flags that we used in this exercise.
 ----------
-
-
+ls -l (List the long form of all the files)
+ls -a (List all files, including hidden ones)
 
 
 
@@ -81,7 +121,7 @@ Copy and paste the output below.
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
-
+ls (List all the files)
 
 
 
@@ -90,7 +130,8 @@ Copy and paste the output below.
 ==========
 8.  What's one an argument that we've so far passed to a command?
 ----------
-
+Doesnotexist
+Documents
 
 
 
@@ -103,7 +144,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+bash: foo: command not found
 
 
 
@@ -116,7 +157,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+bash: foo: command not found
 
 
 
@@ -129,7 +170,10 @@ $ ls -a Desktop
 
 Identify the command, flag, argument, and prompt:
 ----------
-
+Command: ls
+Flag: -a
+Arugment: Desktop
+Prompt: $ (the symbol that tells you that the computer isn't running a command and is ready for your input)
 
 
 
