@@ -278,7 +278,7 @@ Copy and paste the output below.
 ----------
 /c/Users/Keyon Gray/mtec1003/foo/bar/baz/qux
 
--
+
 
 
 
@@ -291,7 +291,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/c/Users/Keyon Gray/mtec1003/foo/bar
 
 
 
@@ -305,6 +305,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+/c/Users/Keyon Gray/mtec1003/foo/bar/baz/qux
 
 
 
@@ -319,6 +320,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+/c/Users/Keyon Gray/mtec1003
 
 
 
@@ -334,6 +336,9 @@ $ ls -l
 
 Copy and paste the first 3 lines from the output into the space below.
 ----------
+total 0
+drwxr-xr-x 1 Keyon Gray 197121 0 Feb  1 16:59 foo/
+drwxr-xr-x 1 Keyon Gray 197121 0 Feb  1 16:58 food/
 
 
 
@@ -348,6 +353,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/c/Users/Keyon Gray
 
 
 
@@ -362,6 +368,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/c/Users/Keyon Gray
 
 
 
@@ -376,6 +383,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/c/Users/Keyon Gray
 
 
 
@@ -390,6 +398,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/c/Users/Keyon Gray/mtec1003
 
 
 
@@ -403,6 +412,7 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
+LAPTOP-0UASR5O8
 
 
 
@@ -412,7 +422,7 @@ Copy and paste the output into the space below.
 ==========
 28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+find 
 
 
 
@@ -443,7 +453,7 @@ lemon
 
 Write the one command you used below:
 ----------
-
+mkdir -p 
 
 
 
@@ -454,7 +464,7 @@ Write the one command you used below:
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 
@@ -465,6 +475,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
+drwxr-xr-x 1 Keyon Gray 197121       0 Feb  5 16:31  aardverk/
 
 
 
@@ -480,7 +491,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+-p 
 
 
 
@@ -491,7 +502,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ..
 
 
 
@@ -502,7 +513,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../..
 
 
 
@@ -511,7 +522,7 @@ What command did you use?
 ==========
 36. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 
@@ -520,7 +531,7 @@ What command did you use?
 ==========
 37. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 
@@ -529,7 +540,7 @@ What command did you use?
 ==========
 38. What flag do I pass to ls to print out all files?
 ----------
-
+-l 
 
 
 
@@ -538,7 +549,7 @@ What command did you use?
 ==========
 39. What's the shortcut for home directory?
 ----------
-
+~ 
 
 
 
@@ -547,7 +558,7 @@ What command did you use?
 ==========
 40. What's a pathname?
 ----------
-
+Specifies the location of a file 
 
 
 
@@ -556,7 +567,7 @@ What command did you use?
 ==========
 41. What is a directory?
 ----------
-
+A file system cataloging which contains references to other files 
 
 
 
@@ -565,3 +576,10 @@ What command did you use?
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+ ./                        'PHYS 1000 Online Syllabus Spring 2021.pdf'
+ ../                        arduino-1.8.13-windows.exe*
+ AtomSetup-x64.exe*         blender-2.91.0-windows64.msi
+'Capture 1.JPG'             desktop.ini
+ ChromeSetup.exe*          'python-3.9.1-amd64 (1).exe'*
+ Git-2.30.0.2-64-bit.exe*   python-3.9.1-amd64.exe*
+
